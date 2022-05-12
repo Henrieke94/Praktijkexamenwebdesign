@@ -1,0 +1,248 @@
+                                                        /* Header*/
+header {
+  background-color: #f97500;
+  background-size: 15% 100%;
+  line-height: 1;
+  width: 100%;
+  height:150px;
+}
+@media only screen  and (min-width:576px){
+header {
+  background-color: #f97500;
+  background-size: 15% 100%;
+  line-height: 2;
+  width: 100%;
+  height: 250px;
+}
+}
+                                                      /*Nav menu*/
+nav  {
+  background-color:#f99c00;
+  height: 50px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+@media only screen  and (min-width:576px){
+nav  {
+  background-color:#f99c00;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+}
+
+nav:hover{
+  background-color:#f99c00;
+  color: black;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+@media only screen  and (min-width:576px){
+nav:hover{
+  background-color:#f99c00;
+  color: black;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+}
+
+a.nav-link {
+  background-color:#f99c00;
+  color: white;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+@media only screen  and (min-width:576px){
+a.nav-link{
+  background-color:#f99c00;
+  color: white;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+}
+
+a.nav-link :hover{
+  background-color:#f99c00;
+  color: black;
+  height: 30px;
+  padding:2px;
+  border-right: 10px solid #f99c00;
+  border-left: 10px solid #f99c00;
+}
+@media only screen  and (min-width:576px){
+ a.nav-link :hover{
+   background-color:#f99c00;
+   color: black;
+   height: 30px;
+   padding:2px;
+   border-right: 10px solid #f99c00;
+   border-left: 10px solid #f99c00;
+}
+}
+
+
+
+                                                      /* Body */
+Body{
+background-color:#fffff0;
+color:#758f9c;
+}
+@media only screen  and (min-width:576px){
+Body {
+background-color: #fffff0;
+color:#758f9c;
+}
+}
+
+                                                      /* Koppen */
+h1, h2, h5 {
+  color: White;
+  line-height: 0;
+}
+@media only screen  and (min-width:576px){
+h1, h2,  h5 {
+  color: White;
+  line-height: 0;
+}
+}
+
+h3 {
+  color: #f97500;
+  line-height: 1;
+}
+@media only screen  and (min-width:576px){
+ h3 {
+  color: #f97500;
+  line-height: 0;
+}
+}
+
+h4, h6 {
+  color: Black;
+  line-height: 0;
+}
+@media only screen  and (min-width:576px){
+h4 h6 {
+  color: Black;
+  line-height: 0;
+}
+}
+
+
+                                                        /* Footer */
+footer {
+  background-color:#f97500;
+  color: Black;
+  line-height: 1;
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+@media only screen  and (min-width:576px){
+footer {
+  background-color:#f97500;
+  color: Black;
+  line-height: 1;
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+}
+
+
+#horizontalelijn{
+  height:5px;
+  color: #f97300 ;
+  margin-top: 0;
+}
+
+                                                      /* Body */
+#container{
+  width: 100%;
+}
+
+
+#linkerkolom {
+  background-color: #ffb21b ;
+}
+@media only screen  and (min-width:576px){
+  #linkerkolom {
+    background-color: #ffb21b ;
+
+}
+}
+
+#rechterkolom {
+  background-color:;
+}
+@media only screen  and (min-width:576px){
+  #rechterkolom {
+    background-color: ;
+  }
+
+
+                                                        /*Contact forulier*/
+    [type="text"], input[type="email"], textarea, select{
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    @media only screen  and (min-width:576px){
+    input[type="text"], input[type="email"], textarea, select{
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    }
+    }
+
+    textarea{
+    height: 400px;
+    width: 100%;
+    padding: 5px 4px;
+    }
+    @media only screen  and (min-width:576px){
+    textarea{
+    height: 400px;
+    padding: 5px 4px;
+    }
+    }
+
+    button {
+    background-color: #f97500 ;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    }
+    @media only screen  and (min-width:576px){
+    button {
+    background-color: #f97500 ;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    }
+    }
+
+    button:hover{
+    background-color: #ffb21b ;
+    color: black;
+    width: 200px;
+    }
+    @media only screen  and (min-width:576px){
+    button:hover{
+    background-color: #ffb21b ;
+    color: black;
+    width: 200px;
+    }
+    }
